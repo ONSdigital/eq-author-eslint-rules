@@ -4,6 +4,7 @@
   "description": "eslint rules for eq-author",
   "peerDependencies": {
     "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
     "eslint-config-prettier": "^2.1.1",
     "eslint-config-react-app": "^1.0.4",
     "eslint-plugin-babel": "^4.1.1",
