@@ -53,4 +53,4 @@ module.exports = {
     "no-self-compare": "error",
     "no-unmodified-loop-condition": "error",
   }
-};
+}
