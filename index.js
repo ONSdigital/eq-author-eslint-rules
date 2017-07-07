@@ -1,10 +1,10 @@
 module.exports = {
   "extends": ["eslint:recommended", "prettier"],
   "plugins": [
-    "jasmine"
+    "jest"
   ],
   "env": {
-    "jasmine": true
+    "jest": true
   },
   "rules": {
     "eqeqeq": "error",

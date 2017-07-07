@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-author",
+  "name": "eslint-config-ons-author",
   "version": "1.0.0",
   "description": "eslint rules for eq-author",
   "peerDependencies": {
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ONSdigital/eslint-config-author.git"
+    "url": "git+https://github.com/ONSdigital/eslint-config-ons-author.git"
   },
   "keywords": [
     "eslint",
@@ -31,7 +31,7 @@
   "author": "Benn Pearson <bennpearson@gmail.com> (http://www.bennpearson.co.uk)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ONSdigital/eslint-config-author/issues"
+    "url": "https://github.com/ONSdigital/eslint-config-ons-author/issues"
   },
-  "homepage": "https://github.com/ONSdigital/eslint-config-author#readme"
+  "homepage": "https://github.com/ONSdigital/eslint-config-ons-author#readme"
 }
