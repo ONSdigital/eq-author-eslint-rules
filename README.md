@@ -1,1 +1,1 @@
-# eq-author-eslint-rules
+# eslint-config-author
