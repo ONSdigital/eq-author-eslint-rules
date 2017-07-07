@@ -1,4 +1,3 @@
-
 module.exports = {
   "extends": ["eslint:recommended", "prettier"],
   "plugins": [
@@ -51,6 +50,6 @@ module.exports = {
     "no-return-await": "error",
     "no-script-url": "error",
     "no-self-compare": "error",
-    "no-unmodified-loop-condition": "error",
+    "no-unmodified-loop-condition": "error"
   }
 }
