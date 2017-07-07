@@ -23,4 +23,5 @@ module.exports = {
     "react/jsx-pascal-case": "error",
 
     "babel/no-invalid-this": "error"
-};
+  }
+}
