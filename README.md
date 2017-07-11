@@ -25,6 +25,8 @@ They should be added to the `extends` section of your eslint config, like so:
 
 ## Releasing
 
+*TODO: automate this*
+
 ```bash
 git checkout master
 yarn version # enter new version
