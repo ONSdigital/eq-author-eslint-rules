@@ -26,11 +26,14 @@ They should be added to the `extends` section of your eslint config, like so:
 ## Releasing
 
 ```bash
-yarn version
+git checkout master
+yarn version # enter new version
+git push origin master --tags
 ```
 
-This command will guide you through the release process. When the next version number has been selected, the following will happen:
+These commands perform the following actions:
 
+* Switch to master
 * Bump version number in `package.json`
 * Commit changes to `package.json`
 * Create git tag for that version
