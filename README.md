@@ -5,7 +5,7 @@ Shared config for eq-author projects.
 ## Installation
 
 ```bash
-yarn add ONSdigital/eslint-config-eq-author
+yarn add eslint-config-eq-author
 ```
 
 ## Usage
@@ -29,6 +29,7 @@ They should be added to the `extends` section of your eslint config, like so:
 git checkout master
 yarn version # enter new version
 git push origin master --tags
+npm publish
 ```
 
 These commands perform the following actions:
@@ -38,3 +39,4 @@ These commands perform the following actions:
 * Commit changes to `package.json`
 * Create git tag for that version
 * Push changes and tag to github
+* Publish to npm
