@@ -1,5 +1,8 @@
 # Changelog
 
+## v1.0.2
+
+* fix invalid eslint config
 ## v1.0.1
 
 * import rules
