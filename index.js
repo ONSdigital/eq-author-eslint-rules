@@ -8,6 +8,7 @@ module.exports = {
     eqeqeq: "error",
     camelcase: "error",
     curly: "error",
+    indent: ["warning", 2, { SwitchCase: 1 }],
     "guard-for-in": "error",
     "key-spacing": "off",
     "new-cap": "off",
@@ -55,16 +56,9 @@ module.exports = {
     "import/namespace": "error",
     "import/default": "error",
     "import/export": "error",
-    "import/no-named-as-default": "off",
-    "import/no-named-as-default-member": "warn",
-    "import/no-duplicates": "warn",
-    "import/unambiguous": "off"
-  },
-  settings: {
-    "import/resolver": {
-      node: {
-        moduleDirectory: ["node_modules", "src"]
-      }
-    }
+    "import/no-named-as-default": "error",
+    "import/no-named-as-default-member": "error",
+    "import/no-duplicates": "error",
+    "import/unambiguous": "error"
   }
 };
