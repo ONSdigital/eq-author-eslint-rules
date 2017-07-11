@@ -48,6 +48,23 @@ module.exports = {
     "no-return-await": "error",
     "no-script-url": "error",
     "no-self-compare": "error",
-    "no-unmodified-loop-condition": "error"
+    "no-unmodified-loop-condition": "error",
+
+    "import/no-unresolved": "error",
+    "import/named": "error",
+    "import/namespace": "error",
+    "import/default": "error",
+    "import/export": "error",
+    "import/no-named-as-default": "off",
+    "import/no-named-as-default-member": "warn",
+    "import/no-duplicates": "warn",
+    "import/unambiguous": "off"
+  },
+  settings: {
+    "import/resolver": {
+      node: {
+        moduleDirectory: ["node_modules", "src"]
+      }
+    }
   }
 };
