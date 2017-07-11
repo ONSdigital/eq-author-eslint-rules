@@ -1,6 +1,6 @@
 module.exports = {
   extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
-  plugins: ["jest"],
+  plugins: ["jest", "import"],
   env: {
     jest: true
   },
