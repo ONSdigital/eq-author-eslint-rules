@@ -56,16 +56,9 @@ module.exports = {
     "import/namespace": "error",
     "import/default": "error",
     "import/export": "error",
-    "import/no-named-as-default": "off",
-    "import/no-named-as-default-member": "warn",
-    "import/no-duplicates": "warn",
-    "import/unambiguous": "off"
-  },
-  settings: {
-    "import/resolver": {
-      node: {
-        moduleDirectory: ["node_modules", "src"]
-      }
-    }
+    "import/no-named-as-default": "error",
+    "import/no-named-as-default-member": "error",
+    "import/no-duplicates": "error",
+    "import/unambiguous": "error"
   }
 };
