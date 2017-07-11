@@ -1,15 +1,13 @@
 module.exports = {
-  "extends": ["eslint:recommended", "prettier"],
-  "plugins": [
-    "jest"
-  ],
-  "env": {
-    "jest": true
+  extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
+  plugins: ["jest"],
+  env: {
+    jest: true
   },
-  "rules": {
-    "eqeqeq": "error",
-    "camelcase": "error",
-    "curly": "error",
+  rules: {
+    eqeqeq: "error",
+    camelcase: "error",
+    curly: "error",
     "guard-for-in": "error",
     "key-spacing": "off",
     "new-cap": "off",
@@ -36,8 +34,8 @@ module.exports = {
     "no-useless-escape": "error",
     "no-unneeded-ternary": "error",
     "no-with": "error",
-    "strict": ["off", "function"],
-    "one-var": ["error", { "initialized": "never" }],
+    strict: ["off", "function"],
+    "one-var": ["error", { initialized: "never" }],
     "no-eval": "error",
     "no-floating-decimal": "error",
     "no-implicit-coercion": "error",
@@ -52,4 +50,4 @@ module.exports = {
     "no-self-compare": "error",
     "no-unmodified-loop-condition": "error"
   }
-}
+};
