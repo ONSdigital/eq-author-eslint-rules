@@ -25,7 +25,7 @@ They should be added to the `extends` section of your eslint config, like so:
 
 ## Releasing
 
-*TODO: automate this*
+_**TODO:** automate this_
 
 ```bash
 git checkout master

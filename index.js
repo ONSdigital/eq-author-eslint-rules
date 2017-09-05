@@ -9,6 +9,7 @@ module.exports = {
     camelcase: "error",
     curly: "error",
     indent: ["warn", 2, { SwitchCase: 1 }],
+    "dot-notation": "error",
     "guard-for-in": "error",
     "key-spacing": "off",
     "new-cap": "off",
