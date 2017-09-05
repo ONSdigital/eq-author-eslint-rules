@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.1.0
+
+* add dot-notation rule
+
 ## v1.0.2
 
 * fix invalid eslint config
@@ -12,4 +16,4 @@
 
 ## v1.0.0
 
-* inital release
+* initial release
