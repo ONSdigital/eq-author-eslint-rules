@@ -1,5 +1,7 @@
 # eslint-config-eq-author
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/ONSdigital/eslint-config-eq-author.svg)](https://greenkeeper.io/)
+
 Shared config for eq-author projects.
 
 ## Installation
