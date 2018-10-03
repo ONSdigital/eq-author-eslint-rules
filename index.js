@@ -1,8 +1,9 @@
 module.exports = {
   extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
-  plugins: ["jest", "import"],
+  plugins: ["jest", "import", "cypress"],
   env: {
-    jest: true
+    jest: true,
+    "cypress/globals": true
   },
   rules: {
     eqeqeq: "error",
