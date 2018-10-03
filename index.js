@@ -1,14 +1,15 @@
 module.exports = {
   extends: ["eslint:recommended", "prettier", "plugin:jest/recommended"],
-  plugins: ["jest", "import"],
+  plugins: ["jest", "import", "cypress"],
   env: {
-    jest: true
+    jest: true,
+    "cypress/globals": true
   },
   rules: {
     eqeqeq: "error",
     camelcase: "error",
     curly: "error",
-    indent: ["warn", 2, { SwitchCase: 1 }],
+    indent: "off",
     "dot-notation": "error",
     "guard-for-in": "error",
     "key-spacing": "off",

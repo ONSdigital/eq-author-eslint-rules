@@ -21,6 +21,7 @@ module.exports = {
     "react/jsx-no-bind": "warn",
     "react/jsx-pascal-case": "error",
 
-    "babel/no-invalid-this": "error"
+    "babel/no-invalid-this": "error",
+    "no-unused-vars": ["error", { vars: "all", args: "after-used" }],
   }
 }
