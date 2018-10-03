@@ -3,7 +3,7 @@
   "version": "1.1.0",
   "description": "eslint rules for eq-author",
   "peerDependencies": {
-    "eslint": "^3.19.0"
+    "eslint": "^5.6.1"
   },
   "dependencies": {
     "eslint-config-prettier": "^2.1.1",
@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint": "^3.19.0"
+    "eslint": "^5.6.1"
   },
   "main": "index.js",
   "scripts": {
