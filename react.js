@@ -22,6 +22,6 @@ module.exports = {
     "react/jsx-pascal-case": "error",
 
     "babel/no-invalid-this": "error",
-    "no-unused-vars": ["error", { vars: "all", args: "after-used" }],
+    "no-unused-vars": ["warn", { vars: "all", args: "after-used" }],
   }
 }
